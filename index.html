@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StageOne — AI Music Launchpad</title>
+  <meta name="description" content="StageOne is an AI-powered launchpad for student musicians to build profiles, find collaborators, and turn demos into opportunities." />
+  <link rel="icon" href="stageone-logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-shell">
+      <a class="brand" href="#top" aria-label="StageOne home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <path class="logo-arch" d="M10.5 31.5C14.5 27.7 19 25.8 24 25.8C29 25.8 33.5 27.7 37.5 31.5" />
+            <path class="logo-play" d="M20.2 14.9C20.2 13.9 21.3 13.3 22.2 13.8L31.7 19.4C32.6 20 32.6 21.2 31.7 21.8L22.2 27.4C21.3 27.9 20.2 27.3 20.2 26.3V14.9Z" />
+            <path class="logo-bar" d="M13.5 18.5V25.5M35 17V26.5" />
+          </svg>
+        </span>
+        <span>StageOne</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" data-nav>
+        <a href="#product">Product</a>
+        <a href="#ai">AI Studio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="nav-actions">
+        <a class="ghost-link" href="#login">Sign in</a>
+        <a class="button small" href="#signup">Join beta</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          Built for student artists, producers & live teams
+        </div>
+        <h1>Turn your first demo into your first real stage.</h1>
+        <p class="hero-subtitle">
+          StageOne is an AI-powered music launchpad that helps emerging musicians build a polished profile, understand their sound, find collaborators, and get matched with performance opportunities.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#signup">Start your profile</a>
+          <a class="button secondary" href="#product">Explore product</a>
+        </div>
+        <div class="mini-proof">
+          <span>AI demo review</span>
+          <span>Collab matching</span>
+          <span>Showcase ready</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1" aria-label="StageOne product preview">
+        <div class="app-window floating-card">
+          <div class="window-top">
+            <div class="traffic"><span></span><span></span><span></span></div>
+            <span>StageOne / Artist OS</span>
+            <button>Live</button>
+          </div>
+
+          <div class="artist-panel">
+            <div>
+              <p class="tiny-label">Current artist</p>
+              <h3>Maya Chen</h3>
+              <p>Bedroom pop · R&B vocals · 92 BPM</p>
+            </div>
+            <div class="score-ring">91</div>
+          </div>
+
+          <div class="wave-card">
+            <div class="wave-bars" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="track-meta">
+              <strong>new single: pink lights.wav</strong>
+              <span>AI feedback ready · 3 opportunities found</span>
+            </div>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="metric-card">
+              <span>Profile strength</span>
+              <strong>84%</strong>
+              <div class="progress"><i style="width:84%"></i></div>
+            </div>
+            <div class="metric-card">
+              <span>Collab fit</span>
+              <strong>12</strong>
+              <div class="avatars"><i>A</i><i>J</i><i>L</i></div>
+            </div>
+          </div>
+
+          <div class="ai-chat-card">
+            <p><strong>StageOne AI</strong></p>
+            <p>Your chorus has strong melodic identity. Try a warmer vocal double and pitch the bridge demo to indie-pop showcases this week.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-strip reveal" aria-label="Supported creative workflows">
+      <span>Logic Pro</span>
+      <span>Ableton</span>
+      <span>Pro Tools</span>
+      <span>Live Showcases</span>
+      <span>Campus Artists</span>
+    </section>
+
+    <section class="section-pad product" id="product">
+      <div class="section-heading reveal">
+        <p class="eyebrow soft">Product intro</p>
+        <h2>Your music career, organized in one clean workspace.</h2>
+        <p>StageOne gives early artists the tools they normally need a manager, designer, and A&R friend for — in one simple dashboard.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="icon-pill">✦</div>
+          <h3>Artist profile builder</h3>
+          <p>Create a clean EPK-style profile with your music, bio, photos, stage clips, credits, and contact links.</p>
+        </article>
+        <article class="feature-card reveal delay-1">
+          <div class="icon-pill">AI</div>
+          <h3>AI demo feedback</h3>
+          <p>Upload a demo and get notes on vibe, genre fit, arrangement, release angle, and audience positioning.</p>
+        </article>
+        <article class="feature-card reveal delay-2">
+          <div class="icon-pill">↔</div>
+          <h3>Collaboration matching</h3>
+          <p>Find producers, singers, DJs, instrumentalists, and visual creators who match your sound and schedule.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="icon-pill">◎</div>
+          <h3>Opportunity board</h3>
+          <p>Discover campus gigs, small showcases, open calls, playlist pitches, and brand/music collaboration leads.</p>
+        </article>
+        <article class="feature-card reveal delay-1">
+          <div class="icon-pill">▣</div>
+          <h3>Project cards</h3>
+          <p>Organize each song like a startup project: status, collaborators, files, links, next steps, and deadline.</p>
+        </article>
+        <article class="feature-card reveal delay-2">
+          <div class="icon-pill">↗</div>
+          <h3>Showcase mode</h3>
+          <p>Generate a public-ready page for applications, networking, booking, internships, or class presentations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad split-section" id="ai">
+      <div class="split-copy reveal">
+        <p class="eyebrow soft">AI / Music workspace</p>
+        <h2>From messy demo files to a clear next move.</h2>
+        <p>
+          StageOne reads your artist profile and project details, then suggests what to improve before you send your music out. It is made for musicians who are still building their first team.
+        </p>
+        <ul class="check-list">
+          <li>Generate a short artist bio and pitch line.</li>
+          <li>Understand your song’s genre, mood, BPM, and audience fit.</li>
+          <li>Turn feedback into an actionable weekly plan.</li>
+        </ul>
+        <a class="button" href="#signup">Try StageOne AI</a>
+      </div>
+
+      <div class="studio-card reveal delay-1">
+        <div class="studio-header">
+          <div>
+            <p class="tiny-label">AI recommendation</p>
+            <h3>Launch checklist</h3>
+          </div>
+          <span>03 / 07 done</span>
+        </div>
+        <div class="task-list">
+          <label><input type="checkbox" checked /> Upload final mix</label>
+          <label><input type="checkbox" checked /> Add live performance clip</label>
+          <label><input type="checkbox" checked /> Write 2-line artist pitch</label>
+          <label><input type="checkbox" /> Add press photo</label>
+          <label><input type="checkbox" /> Find 3 matching collaborators</label>
+          <label><input type="checkbox" /> Submit to showcase board</label>
+        </div>
+        <div class="match-card">
+          <span>Best next opportunity</span>
+          <strong>Campus Night: Emerging Voices</strong>
+          <p>Fit score 88% · looking for indie/R&B student acts</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad pricing" id="pricing">
+      <div class="section-heading reveal">
+        <p class="eyebrow soft">Pricing</p>
+        <h2>Start small. Upgrade when your project grows.</h2>
+        <p>Simple plans for class projects, student artists, and small creative teams.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card reveal">
+          <p class="plan-name">Starter</p>
+          <h3>$0<span>/mo</span></h3>
+          <p>For testing the idea and creating your first artist profile.</p>
+          <ul>
+            <li>1 public profile</li>
+            <li>3 project cards</li>
+            <li>Basic AI bio help</li>
+          </ul>
+          <a class="button secondary full" href="#signup">Get started</a>
+        </article>
+        <article class="price-card featured reveal delay-1">
+          <div class="popular-tag">Most popular</div>
+          <p class="plan-name">Artist</p>
+          <h3>$8<span>/mo</span></h3>
+          <p>For musicians applying to shows, internships, and collaborations.</p>
+          <ul>
+            <li>Unlimited project cards</li>
+            <li>AI demo feedback</li>
+            <li>Opportunity matching</li>
+            <li>Showcase mode</li>
+          </ul>
+          <a class="button full" href="#signup">Join beta</a>
+        </article>
+        <article class="price-card reveal delay-2">
+          <p class="plan-name">Team</p>
+          <h3>$19<span>/mo</span></h3>
+          <p>For collectives, campus clubs, labels, and student showcases.</p>
+          <ul>
+            <li>Team workspace</li>
+            <li>Shared talent database</li>
+            <li>Event submission forms</li>
+          </ul>
+          <a class="button secondary full" href="#signup">Contact us</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad form-section" id="signup">
+      <div class="form-copy reveal">
+        <p class="eyebrow soft">Login / beta form</p>
+        <h2>Build your StageOne profile.</h2>
+        <p>This demo form is front-end only, so it is safe for GitHub Pages. You can connect it to Formspree, Airtable, or Firebase later.</p>
+      </div>
+
+      <form class="signup-card reveal delay-1" id="betaForm">
+        <label>
+          Artist name
+          <input type="text" name="artist" placeholder="Ann / Maya Chen / BTop" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          What are you building?
+          <select name="goal" required>
+            <option value="">Choose one</option>
+            <option>Artist profile</option>
+            <option>Collaboration project</option>
+            <option>Campus showcase</option>
+            <option>AI music portfolio</option>
+          </select>
+        </label>
+        <button class="button full" type="submit">Request beta access</button>
+        <p class="form-note" id="formNote">No password or private key needed.</p>
+      </form>
+    </section>
+
+    <section class="section-pad faq" id="faq">
+      <div class="section-heading reveal">
+        <p class="eyebrow soft">FAQ</p>
+        <h2>Questions before the first stage?</h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <details open>
+          <summary>Is StageOne a real working app?</summary>
+          <p>This version is a polished static landing page for GitHub Pages. The product buttons and form are demo-ready, but no backend is connected yet.</p>
+        </details>
+        <details>
+          <summary>How long does it take to find a matching vocalist?</summary>
+          <p>In this demo concept, StageOne can suggest a first shortlist in a few minutes after analyzing your genre, vocal range, mood, BPM, and project goal.</p>
+        </details>
+        <details>
+          <summary>How does StageOne match me with other musicians?</summary>
+          <p>StageOne compares your sound, role, location, availability, and creative direction to recommend singers, producers, writers, and live collaborators who fit your project.</p>
+        </details>
+        <details>
+          <summary>Does the form collect real emails?</summary>
+          <p>No. It only shows a success message in the browser. That keeps the GitHub upload safe and beginner-friendly.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <path class="logo-arch" d="M10.5 31.5C14.5 27.7 19 25.8 24 25.8C29 25.8 33.5 27.7 37.5 31.5" />
+            <path class="logo-play" d="M20.2 14.9C20.2 13.9 21.3 13.3 22.2 13.8L31.7 19.4C32.6 20 32.6 21.2 31.7 21.8L22.2 27.4C21.3 27.9 20.2 27.3 20.2 26.3V14.9Z" />
+            <path class="logo-bar" d="M13.5 18.5V25.5M35 17V26.5" />
+          </svg>
+        </span>
+        <span>StageOne</span>
+      </a>
+      <p>AI music launchpad for the first stage of your career.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#product">Product</a>
+      <a href="#ai">AI Studio</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#signup">Sign in</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
